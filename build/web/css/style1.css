@@ -1,0 +1,304 @@
+	body{
+		background-color:white;
+		margin:0;
+	}
+	.p1{
+		text-align:left;
+		padding:0px;
+		margin:0px;
+		position:fix;
+	}
+	.p2{
+		text-align:left;
+		padding:0px;
+		margin-top:-10px;
+		margin-left:10px;
+		font-family:Lucida Calligraphy;
+	}
+        
+.box{
+ 	transform:translate(20%,20%);
+ }
+ .btn{
+	color:black;
+                 position:relative;
+	font-size:20px;
+	font-family:"Palantino Linotype";
+	font-weight: bold;
+	margin:30px ;
+	padding:15px;
+	text-transform:uppercase;
+	overflow:hidden;
+	transition:1s all ease;
+ }
+ .btn:hover
+ {
+     background-color: black;
+     color:#d9b3ff;
+ }
+ .btn::before{
+    	 background:black;
+	     content:"";
+       position:absolute;
+       top:0%;
+       left:0%;
+       bottom:0%;
+      right:0%;
+      opacity: 0.4;
+     z-index:-1;
+	transition: all 0.6s ease;
+	}
+ .btn1::before{
+  	width:0px;
+	height:100%;
+}
+.btn1:hover::before{
+ width:100%;
+}
+.btn2::before{
+ width:100%;
+ height:0;
+}
+.btn2:hover::before{
+ height:100%;
+ }
+.btn3::before{
+width:0px;
+ height:100%;
+}
+.btn3:hover::before{
+width:100%;
+ }
+.btn4::before{
+ width:100%;
+ height:0;
+}
+.btn4:hover::before{
+ height:100%;
+ }
+ .btn5::before{
+ width:0px;
+	height:100%;
+}
+.btn5:hover::before{
+width:100%;
+ }
+	.p1{
+		text-align:left;
+		padding:0px;
+		margin:0px;
+		position:fix;
+	}
+	.p2{
+		text-align:left;
+		padding:0px;
+		margin-top:-10px;
+		margin-left:10px;
+		font-family:Lucida Calligraphy;
+	}
+
+.hey{
+	margin:0px;
+	}
+.topnav button
+{
+  float: revert;
+  cursor:pointer;
+	margin-top:-49px;
+	margin-left: -5px;
+  width:20px;
+  padding:20px;
+  border: 2px solid grey;
+  border-left: none;
+	 border-radius: 0px 10 10 0px;
+}
+
+.topnav
+{  width:100%;
+   padding-top: 0px;
+   margin-top:0;
+   background-color: #d9b3ff;
+   border-radius: 10px;
+}
+ *
+    {
+        box-sizing: border-box;
+    }
+    .box{
+ 	transform:translate(20%,20%);
+ }
+ .btn{
+	color:black;
+   position:relative;
+	font-size:20px;
+	font-family:"montserrat";
+	text-decoration:none;
+	margin:30px ;
+	padding:15px;
+	text-transform:uppercase;
+	overflow:hidden;
+	transition:1s all ease;
+ }
+ .btn::before{
+    	 background:black;
+	     content:"";
+       position:absolute;
+       top:0%;
+       left:0%;
+       bottom:0%;
+      right:0%;
+      opacity: 0.4;
+     z-index:-1;
+	transition: all 0.6s ease;
+	}
+ .btn1::before{
+  	width:0px;
+	height:100%;
+}
+.btn1:hover::before{
+ width:100%;
+}
+.btn2::before{
+ width:100%;
+ height:0;
+}
+.btn2:hover::before{
+ height:100%;
+ }
+.btn3::before{
+width:0px;
+ height:100%;
+}
+.btn3:hover::before{
+width:100%;
+ }
+.btn4::before{
+ width:100%;
+ height:0;
+}
+.btn4:hover::before{
+ height:100%;
+ }
+        .footer{
+    padding: 20px;
+    margin-bottom:20px;
+    margin-top: 20px;
+    background-color:#d9b3ff;
+    border-radius: 10px;
+    color:black;
+        }
+/* Style the button that is used to open the sidepanel */
+
+a{
+    text-decoration: none;
+}
+a:hover
+    {
+       text-decoration:underline;
+      border-radius:5px;
+    }
+ *
+    {
+        box-sizing: border-box;
+    }
+.list1
+{
+    font-family: Palantino Linotype;
+    font-size:20px;
+    color:black;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+}
+.query{
+	background-color:lightgrey;
+}
+/*.card1{
+background-color:white;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 30px;
+}*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 800px) {
+  .container, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+.box{
+ 	transform:translate(20%,20%);
+ }
+ .btn{
+	color:white;
+   position:relative;
+	font-size:20px;
+	font-family:"montserrat";
+	text-decoration:none;
+	margin:30px ;
+	padding:15px;
+	text-transform:uppercase;
+	overflow:hidden;
+	transition:1s all ease;
+ }
+ .btn::before{
+    	 background:black;
+	     content:"";
+       position:absolute;
+       top:0%;
+       left:0%;
+       bottom:0%;
+      right:0%;
+      opacity: 0.4;
+     z-index:-1;
+	transition: all 0.6s ease;
+	}
+ .btn1::before{
+  	width:0px;
+	height:100%;
+}
+.btn1:hover::before{
+ width:100%;
+}
+.btn2::before{
+ width:100%;
+ height:0;
+}
+.btn2:hover::before{
+ height:100%;
+ }
+.btn3::before{
+width:0px;
+ height:100%;
+}
+.btn3:hover::before{
+width:100%;
+ }
+.btn4::before{
+ width:100%;
+ height:0;
+}
+.btn4:hover::before{
+ height:100%;
+ }
